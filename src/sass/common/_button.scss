@@ -1,0 +1,5 @@
+// Используется в большинстве кнопок. Там где не используется нужно переназначить или border-radius или всё (хедер).
+button{
+    background: $button-color;
+    border-radius: 20px 0px;
+}
