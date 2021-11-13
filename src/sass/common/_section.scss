@@ -1,7 +1,23 @@
 .section {
-
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.section-title {}
+.section-title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.625;
+    color: $bold-txt-color;
+    text-transform: capitalize;
+}
 
-.section-subtitle {}
+.section-subtitle {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    color: $txt-color;
+    text-transform: uppercase;
+}
