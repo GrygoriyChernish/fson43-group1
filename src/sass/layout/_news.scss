@@ -1,10 +1,18 @@
-.section__news {
+.section-news {
   background-color: $second-bground-color;
+}
+.section-title {
+  line-height: 0.58;
+  text-align: center;
+}
+.section-subtitle {
+  line-height: 1.4;
+  text-align: center;
 }
 
 .news {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   .news__item {
     position: relative;
